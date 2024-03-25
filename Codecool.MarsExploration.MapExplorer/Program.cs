@@ -17,7 +17,7 @@ class Program
     public static void Main(string[] args)
     {
         
-        /*
+        
         var mapFile = $@"{WorkDir}/Resources/exploration-0.map";
         var landingSpot = new Coordinate(0, 0);
         var resources = new List<string> { "*", "%" };
@@ -37,10 +37,10 @@ class Program
         };
         
         simulation.RunSimulation(steps);
-        */
+        
         
         //============TESTS====================================================================
-        
+        /*
         var mapFile = $@"{WorkDir}/Resources/exploration-0.map";
         var map = new MapLoader.MapLoader().Load(mapFile);
         
@@ -77,6 +77,6 @@ class Program
         
         var path2 = new ShortestPathFinder(map).FindShortestPath(start, goal);
         ui.DisplayMap(map, start, goal, path2);
-
+*/
     }
 }
